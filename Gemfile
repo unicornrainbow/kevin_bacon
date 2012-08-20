@@ -29,6 +29,7 @@ end
 
 gem 'jquery-rails'
 gem "nokogiri", "~> 1.5.5"
+gem "slim", "~> 1.2.2"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
