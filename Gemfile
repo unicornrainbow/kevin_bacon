@@ -31,6 +31,8 @@ gem 'jquery-rails'
 gem "nokogiri", "~> 1.5.5"
 gem "slim", "~> 1.2.2"
 
+gem "bootstrap-sass-rails", "~> 2.0.4.3"
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
