@@ -19,13 +19,7 @@ Loads actions from xml input into a data warehouse. Show's degrees of separation
 
 # TODO
 
-- Parse xml
-- Store in data warehouse
-- Calculate degrees of separation
-- Display in UI
 - Launch on heroku
-- Bootstrap UI
-
 
 # LICENSE
 
