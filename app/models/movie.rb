@@ -4,7 +4,7 @@ class Movie < ActiveRecord::Base
   has_many :actors, :through => :billings
 
   def add_actor(actor)
-    actors << actor
+    billings.find_or_create_by_actor_id(actor.id)
   end
 
 end

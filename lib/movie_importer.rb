@@ -20,8 +20,8 @@ class MovieImporter
           puts "- #{name}"
         end
         movie = Movie.find_or_create_by_title(movie_title)
-        actors.each do |actor_names|
-          actor = Actor.find_or_create_by_name(actor)
+        actors_names.each do |actor_name|
+          actor = Actor.find_or_create_by_name(actor_name)
           movie.add_actor(actor)
         end
       rescue => e
