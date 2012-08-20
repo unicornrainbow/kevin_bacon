@@ -1,0 +1,59 @@
+<movies>
+  <movie title="Batman"/>
+    <actor name="Michael Keaton"/>
+    <actor name="Jack Nicholson"/>
+    <actor name="Kim Basinger"/>
+  </movie>
+  <movie title="L.A. Confidential"/>
+    <actor name="Kevin Spacey"/>
+    <actor name="Russell Crowe"/>
+    <actor name="Guy Pearce"/>
+    <actor name="Kim Basinger"/>
+  </movie>
+  <movie title="The Usual Suspects"/>
+    <actor name="Kevin Spacey"/>
+    <actor name="Gabriel Byrne"/>
+    <actor name="Chazz Palminteri"/>
+  </movie>
+  <movie title="End of Days"/>
+    <actor name="Arnold Schwarzenegger"/>
+    <actor name="Gabriel Byrne"/>
+    <actor name="Robin Tunney"/>
+  </movie>
+  <movie title="The Mentalist"/>
+    <actor name="Simon Baker"/>
+    <actor name="Robin Tunney"/>
+    <actor name="Tim Kang"/>
+  </movie>
+  <movie title="The Devil Wears Prada"/>
+    <actor name="Anne Hathaway"/>
+    <actor name="Meryl Streep"/>
+    <actor name="Adrian Grenier"/>
+    <actor name="Simon Baker"/>
+  </movie>
+  <movie title="The Dark Knight Rises"/>
+    <actor name="Christian Bale"/>
+    <actor name="Tom Hardy"/>
+    <actor name="Anne Hathaway"/>
+  </movie>
+  <movie title="Batman Begins"/>
+    <actor name="Michael Caine"/>
+    <actor name="Christian Bale"/>
+    <actor name="Ken Watanabe"/>
+  </movie>
+  <movie title="Children of Men"/>
+    <actor name="Julianne Moore"/>
+    <actor name="Clive Owen"/>
+    <actor name="Chiwetel Ejiofor"/>
+  </movie>
+  <movie title="Sin City"/>
+    <actor name="Mickey Rourke"/>
+    <actor name="Clive Owen"/>
+    <actor name="Jessica Alba"/>
+  </movie>
+  <movie title="Fantastic 4: Rise of the Silver Surfer"/>
+    <actor name="Jessica Alba"/>
+    <actor name="Ioan Gruffudd"/>
+    <actor name="Chris Evans"/>
+  </movie>
+</movies>
