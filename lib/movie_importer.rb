@@ -28,6 +28,9 @@ class MovieImporter
         puts "Encountered a problem importing #{movie_title}.\n#{e.message}"
       end
     end
+
+    Actor.update_degrees_of_separation!
+
   end
 
   # Returns array of [movie_title, actor_names].
