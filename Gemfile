@@ -30,6 +30,7 @@ end
 gem 'jquery-rails'
 gem "nokogiri", "~> 1.5.5"
 gem "slim", "~> 1.2.2"
+gem "heroku", "~> 2.30.3"
 
 gem "bootstrap-sass-rails", "~> 2.0.4.3"
 
