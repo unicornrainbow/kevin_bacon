@@ -1,12 +1,20 @@
 p#notice= notice
 p
-  b Name:
+  'Name:
   = @actor.name
 
 h3 Movies
 ul
 - @actor.movies.each do |movie|
-  li = movie.title
+  li= link_to movie.title, movie
+
+h3 Related Actors
+table
+  - @actor.degree_of_separations.includes(:connection).each do |dos|
+    tr
+      td= link_to dos.connection.name, actor_path(dos.connection)
+      td= dos.value
+
 = link_to 'Edit', edit_actor_path(@actor)
 |&nbsp;|&nbsp;
 = link_to 'Back', actors_path

@@ -5,6 +5,12 @@
   <%= @movie.title %>
 </p>
 
+<h3>Movies</h3>
+<ul>
+  <%- @movie.actors.each do |actor| -%>
+    <li><%= link_to actor.name, actor %></li>
+  <%- end %>
+</ul>
 
 <%= link_to 'Edit', edit_movie_path(@movie) %> |
 <%= link_to 'Back', movies_path %>
