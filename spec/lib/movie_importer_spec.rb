@@ -12,7 +12,20 @@ describe MovieImporter do
   end
 
   describe "#parsed_movies_with_actors" do
-    it "should return an array with movies and actors"
+    it "should return an array with movies and actors" do
+      subject = described_class.new('spec/example_xml/movies_short_list.xml')
+      subject.parsed_movies_with_actors.should == [
+        ["Batman", [
+          "Michael Keaton",
+          "Jack Nicholson",
+          "Kim Basinger"]],
+        ["L.A. Confidential", [
+          "Kevin Spacey",
+          "Russell Crowe",
+          "Guy Pearce",
+          "Kim Basinger"]]
+      ]
+    end
   end
 
 end

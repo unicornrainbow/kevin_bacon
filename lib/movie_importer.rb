@@ -9,7 +9,7 @@ class MovieImporter
   # Imports actors from `source` to database
   def import!
     unless source
-      puts "SOURCE must be specified. ex. `rake import:actors SOURCE=example.xml`"
+      puts "SOURCE must be specified. ex. `rake import:movies SOURCE=example.xml`"
       return false
     end
 
