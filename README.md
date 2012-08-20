@@ -4,7 +4,7 @@ Loads actions from xml input into a data warehouse. Show's degrees of separation
 
 # Load xml data
 
-    $ rake import <source.xml>
+    $ rake import:actors SOURCE=<source.xml>
 
 # Run application
 
