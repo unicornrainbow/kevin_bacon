@@ -6,10 +6,14 @@ Loads actions from xml input into a data warehouse. Show's degrees of separation
 
     $ rake import <source.xml>
 
-# View degrees of separtion
+# Run application
 
-Run application. From the homepage, pick to actor names. Degrees of separation will be rendered.
+    $ rails server
 
+# View actor degree of separation
+
+1. Select actor from the index on the homescreen.
+2. From actor page, view list of actors the actor is connected.
 
 # TODO
 
