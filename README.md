@@ -1,7 +1,14 @@
 # Example App
 
+This is a rails application running on a *postgres db*.
+
 Loads actions from xml input into a data warehouse. Show's degrees of
 separation between 2 actors.
+
+# Install
+
+    $ bundle install
+    $ rake db:create db:migrate  # Db is postgres for heroku compatibility `brew install postgres` (Also need to create root user)
 
 # Load xml data
 
@@ -20,7 +27,7 @@ separation between 2 actors.
 
 # TODO
 
-- Launch on heroku
+- Clean up UI (I havn't really focused on this and it needs some work)
 
 # LICENSE
 
