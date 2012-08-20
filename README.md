@@ -24,4 +24,4 @@ separation between 2 actors.
 
 # LICENSE
 
-The application is purely for demonstration purposes. All rights retained.
+The application is for demonstrational purposes only. All rights reserved.
