@@ -14,6 +14,10 @@ separation between 2 actors.
 
     $ rake import:movies SOURCE=<source.xml>
 
+There's an example file at `spec/example_xml/movies.xml`
+
+    $ rake import:movies SOURCE=spec/example_xml/movies.xml
+
 # Run application
 
     $ rails server
@@ -24,6 +28,13 @@ separation between 2 actors.
 2. Click on an actors name
 3. From actor page, view list of actors the actor is connected along with
    degrees of separation
+
+# Launch on heroku
+
+    $ heroku create
+    $ git push heroku master
+    $ heroku rake db:migrate
+    $ heroku run rake import:movies SOURCE=spec/example_xml/movies.xml
 
 # TODO
 
