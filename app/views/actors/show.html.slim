@@ -1,15 +1,17 @@
 p#notice= notice
-p
-  'Name:
-  = @actor.name
-
+h1= @actor.name
+br
 h3 Movies
 ul
 - @actor.movies.each do |movie|
   li= link_to movie.title, movie
 
 h3 Related Actors
-table
+table.table
+  thead
+    tr
+      td Actor
+      td Degrees of Separation
   - @actor.degree_of_separations.includes(:connection).each do |dos|
     tr
       td= link_to dos.connection.name, actor_path(dos.connection)

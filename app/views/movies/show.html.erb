@@ -1,11 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Title:</b>
-  <%= @movie.title %>
-</p>
+<h1><%= @movie.title %></h1
 
-<h3>Movies</h3>
+<h3>Actors</h3>
 <ul>
   <%- @movie.actors.each do |actor| -%>
     <li><%= link_to actor.name, actor %></li>
