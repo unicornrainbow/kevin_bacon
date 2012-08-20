@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120820115822) do
+ActiveRecord::Schema.define(:version => 20120820121201) do
 
   create_table "actors", :force => true do |t|
     t.string   "name"
@@ -20,6 +20,16 @@ ActiveRecord::Schema.define(:version => 20120820115822) do
   end
 
   add_index "actors", ["name"], :name => "index_actors_on_name", :unique => true
+
+  create_table "billings", :force => true do |t|
+    t.integer  "actor_id"
+    t.integer  "movie_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "billings", ["actor_id"], :name => "index_billings_on_actor_id"
+  add_index "billings", ["movie_id"], :name => "index_billings_on_movie_id"
 
   create_table "movies", :force => true do |t|
     t.string   "title"

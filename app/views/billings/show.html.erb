@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Actor:</b>
+  <%= @billing.actor %>
+</p>
+
+<p>
+  <b>Movie:</b>
+  <%= @billing.movie %>
+</p>
+
+
+<%= link_to 'Edit', edit_billing_path(@billing) %> |
+<%= link_to 'Back', billings_path %>

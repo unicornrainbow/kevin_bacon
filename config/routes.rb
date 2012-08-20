@@ -1,4 +1,6 @@
 KevinBacon::Application.routes.draw do
+  resources :billings
+
   resources :actors
 
   resources :movies
